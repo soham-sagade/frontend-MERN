@@ -26,7 +26,7 @@ function Dashboard({history}) {
     },[])
     
     const socket = useMemo( () => 
-        socketio("https://events-site-app-frontend.herokuapp.com/",{query: { user : userid }})
+        socketio("https://events-site-app.herokuapp.com/",{query: { user : userid }})
     ,[userid]);
 
     const toggle = () => setIsDropdown(!isdropdown);
