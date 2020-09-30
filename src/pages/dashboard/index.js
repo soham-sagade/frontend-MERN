@@ -201,18 +201,13 @@ function Dashboard({history}) {
                     </DropdownToggle>
                     <DropdownMenu>
                         <DropdownItem onClick={() => filter(null)} active={rSelected === null}>All Events</DropdownItem>
+                        <DropdownItem onClick={myEventsHandler} active={rSelected === 'myevents'} >My Events</DropdownItem>
                         <DropdownItem onClick={() => filter("Swimming")} active={rSelected === "Swimming"}>Swimming</DropdownItem>
                         <DropdownItem onClick={() => filter("Running")} active={rSelected === "Running"}>Running</DropdownItem>
                         <DropdownItem onClick={() => filter("Cycling")} active={rSelected === "Cycling"}>Cycling</DropdownItem>
                     </DropdownMenu>
             </Dropdown>
 
-            </div>
-            <div className="col-sm-3 ">
-                <Button color = "secondary" className="buttons" onClick = {myEventsHandler} value = "myevent">My Events</Button>
-            </div>
-            <div className="col-sm-3 buttons">
-                <Button color = "success"  value = "new" onClick = {() => history.push('/Events')}>Create New Event</Button>
             </div>
             </Row>
         
