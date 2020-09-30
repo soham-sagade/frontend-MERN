@@ -42,7 +42,7 @@ import {UserContext} from '../../user-context'
         (<div>
             
         <Navbar color="light" light expand="md">
-            <NavbarBrand style = {{color: "orangered"}}>Sportinger <FontAwesomeIcon icon = {faSwimmer} /></NavbarBrand>
+            <NavbarBrand href = "/" style = {{color: "orangered"}}>Sportinger <FontAwesomeIcon icon = {faSwimmer} /></NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>    
             <Nav className="mr-auto">
