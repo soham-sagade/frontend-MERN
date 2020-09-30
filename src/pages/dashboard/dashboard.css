@@ -26,31 +26,27 @@ ul.events-list li strong{
     color: #444;
 }
 
-.buttons{
-    margin-top:31px;
-    width: 100%;
-}
-ul.events-list header div{
-    display: flex;
-    flex-direction: row-reverse;
 
-}
-
-.filter-panel{
+div.filter-panel{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-ul.notifications{
-    list-style: none;
-    margin-bottom:  16px;
-    width: 100%;
+ul.events-list header div {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-ul.notifications li{
+ul.notifications {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+ul.notifications li {
     font-size: 16px;
     line-height: 24px;
+
 }
 
 @media (max-width:768px){
