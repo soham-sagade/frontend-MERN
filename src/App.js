@@ -13,7 +13,7 @@ function App() {
         <BrowserRouter>
             <Navigate />
           <Container>
-            <div className = "content container">
+            <div className = "content">
               <Routes />
             </div>
           </Container> 
